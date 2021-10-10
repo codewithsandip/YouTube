@@ -68,7 +68,7 @@ h1 + article {
 }
 ```
 
-## General Selector
+## General Selector (~)
 
 Selects all adjacent siblings after the element.
 
