@@ -1,0 +1,15 @@
+h1::first-letter {
+    font-size: 5rem;
+}
+
+p {
+    width: 20rem;
+}
+
+p::first-line {
+   background-color: antiquewhite; 
+}
+
+::selection {
+    background-color: blanchedalmond;
+}
