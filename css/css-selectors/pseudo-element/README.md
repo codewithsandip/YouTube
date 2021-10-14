@@ -33,6 +33,10 @@ p::first-line {
 ::selection {
     background-color: blanchedalmond;
 }
+
+::placeholder {
+    background-color: blanchedalmond;
+}
 ```
 
 ## Before & After Selector
