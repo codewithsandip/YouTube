@@ -1,0 +1,23 @@
+button:enabled {
+    background-color: navajowhite;
+}
+
+button:disabled {
+    background-color: olive;
+}
+
+input:checked + label {
+    background-color: orange;
+}
+
+input:invalid {
+    background-color: orangered;
+}
+
+textarea:read-only {
+    background-color: silver;
+}
+
+input:required {
+    background-color: tan;
+}

@@ -1,0 +1,19 @@
+ul li:first-child {
+    background-color: darkorange;
+}
+
+ul li:last-child {
+    background-color:deeppink;
+}
+
+p:only-child {
+    background-color: deepskyblue;
+}
+
+ul li:nth-child(2) {
+    background-color: forestgreen;
+}
+
+ul li:nth-last-child(3) {
+    background-color:indigo;
+}

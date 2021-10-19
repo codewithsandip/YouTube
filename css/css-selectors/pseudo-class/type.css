@@ -1,0 +1,23 @@
+section h2:first-of-type {
+    background-color: indigo;
+}
+
+section p:last-of-type {
+    background-color: khaki;
+}
+
+section h3:only-of-type {
+    background-color: lawngreen;
+}
+
+section h2:nth-of-type(2) {
+    background-color: lightseagreen;
+}
+
+section h2:nth-last-of-type(1) {
+    background-color: magenta;
+}
+
+article :not(p) {
+    background-color: moccasin;
+}

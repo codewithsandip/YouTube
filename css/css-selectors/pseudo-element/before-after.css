@@ -1,0 +1,12 @@
+
+p {
+    width: 15rem;
+}
+
+p::before {
+    content: "(";
+}
+
+p::after {
+    content: ")";
+}
