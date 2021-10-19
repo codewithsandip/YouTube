@@ -50,7 +50,7 @@ There are 5 types of CSS selectors that you need to understand to master targett
 [4. Pseudo Element Selectors](https://github.com/codewithsandip/notes/tree/master/css/css-selectors/pseudo-element)
 
 ## Text Parts Selectors
->h1::first-letter {}, p::first-line {}, ::selection {}
+>h1::first-letter {}, p::first-line {}, ::selection {}, ::placeholder {}
 
 ## Before & After Selector
 >p::before {}, p::after {}
