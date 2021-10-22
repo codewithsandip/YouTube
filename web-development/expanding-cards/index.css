@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Lato', sans-serif;
+}
+
+.cards {
+    display: flex;
+}
+
+.card {
+    display: flex;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 80vh;
+    border-radius: 5rem;
+    color: white;
+    cursor: pointer;
+    width: 5%;
+    margin: 1rem;
+    transition: width 0.3s;
+}
+
+.card h3 {
+    font-size: 2.5rem;
+    align-self: flex-end;
+    position: relative;
+    left: 2rem;
+    bottom: 2rem;
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+.card.active {
+    width: 95%;
+}
+
+.card.active h3 {
+    opacity: 1;
+}
