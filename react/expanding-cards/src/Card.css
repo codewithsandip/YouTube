@@ -1,0 +1,29 @@
+.card {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 80vh;
+  flex: 0.5;
+  border-radius: 50px;
+  position: relative;
+  margin: 0.5rem;
+  cursor: pointer;
+  transition: flex 0.3s;
+}
+
+.card h2 {
+  color: white;
+  position: absolute;
+  bottom: 2rem;
+  left: 1rem;
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+
+.card.active {
+  flex: 5;
+}
+
+.card.active h2 {
+  opacity: 1;
+}
