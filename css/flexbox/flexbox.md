@@ -2,6 +2,8 @@
 
 Flex Container, flex items, main axis, cross axis
 
+---
+
 # Flexbox Container Props
 
 ## flex-direction
@@ -30,6 +32,8 @@ Combination of flex-direction and flex-flow.
 ## align-content
 
 Align wrapped content on cross axis.
+
+---
 
 
 
