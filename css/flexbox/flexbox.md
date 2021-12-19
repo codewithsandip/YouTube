@@ -19,7 +19,17 @@ Align content on cross axis. row: vertical, column: horizontal
 
 stretch | flex-start | flex-end | center | baseline
 
+## flex-wrap
 
+no-wrap | wrap | wrap-reverse
+
+## flex-flow
+
+Combination of flex-direction and flex-flow.
+
+## align-content
+
+Align wrapped content on cross axis.
 
 
 
