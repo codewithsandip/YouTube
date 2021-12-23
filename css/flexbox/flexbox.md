@@ -35,6 +35,20 @@ Align wrapped content on cross axis.
 
 ---
 
+# Flexbox Items Props
+
+## align-self
+
+Align items on cross axis. row: vertical, column: horizontal
+
+## flex, flex-grow, flex-shrink & flex-basis [max, min, ideal size]
+
+Grow takes the positive value and sets the size as per available space. It distributes space based on how many items has been assigned grow value.
+Basis sets the initial value for the item. Shrink acts like a on/off switch. Default value is 1 (shrink ON)
+
+## order
+
+Controls the ordering of flex items.
 
 
 
