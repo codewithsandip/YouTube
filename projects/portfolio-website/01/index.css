@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Oswald:wght@200;300;400;500;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 62.5%; /* 10px */
+}
+
+h1 {
+  font-family: "Oswald", sans-serif;
+}
+
+p {
+  font-family: "EB Garamond", serif;
+}
