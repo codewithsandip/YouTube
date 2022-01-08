@@ -150,3 +150,154 @@ main header {
 .main-nav .site-links li a:active::after {
   transform: scaleX(1);
 }
+
+/************* hero section *************/
+.hero {
+  height: 100vh;
+  background-color: var(--primary-color);
+  background-image: url("images/hero-1.png");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.hero .content {
+  background-color: var(--secondary-color-m);
+  padding: calc(0.5rem + 1vw);
+}
+
+.hero .content h1 {
+  font-size: calc(3rem + 1vw);
+}
+
+.hero .content p {
+  font-size: calc(1.5rem + 1vw);
+  font-family: "EB Garamond", serif;
+}
+
+.hero .content a {
+  font-size: calc(1rem + 1vw);
+}
+
+.hero .content a:link,
+.hero .content a:visited {
+  position: relative;
+
+  text-transform: uppercase;
+  color: var(--primary-color);
+  padding: 0.25rem;
+
+  z-index: 1;
+}
+
+.hero .content a:link::after,
+.hero .content a:visited::after {
+  content: "";
+
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+
+  border-radius: 0.25rem;
+  transform: scaleX(0);
+
+  z-index: -1;
+
+  opacity: 0;
+  transition: opacity 0.3s ease-in;
+
+  background-color: var(--primary-color);
+}
+
+.hero .content a:hover {
+  color: white;
+}
+
+.hero .content a:hover::after,
+.hero .content a:active::after {
+  transform: scaleX(1);
+  opacity: 1;
+}
+
+/************* screen size below 1040px *************/
+@media screen and (max-width: 1040px) {
+  /************* hero section *************/
+  .hero {
+    background-position: 80%;
+  }
+}
+
+/************* screen size below 640px *************/
+@media screen and (max-width: 640px) {
+  /************* main nav hamburger menu *************/
+  header {
+    position: absolute;
+  }
+
+  .main-nav {
+    position: fixed;
+
+    height: 100%;
+    width: 100%;
+
+    right: -100rem;
+
+    background-color: var(--tertiary-color-m);
+    transition: right 0.3s ease-in-out;
+  }
+
+  .main-nav.collapse {
+    right: 0;
+  }
+
+  .main-nav .hamburger {
+    width: 3rem;
+    height: 3rem;
+    background-color: var(--primary-color);
+
+    position: fixed;
+    right: 1rem;
+    top: 1rem;
+    padding: 1rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    cursor: pointer;
+
+    /*border-radius: 50%;*/
+  }
+
+  .hamburger .line {
+    width: 100%;
+    height: 0.4rem;
+
+    background-color: white;
+    border-radius: 0.25rem;
+  }
+
+  .main-nav .site-links {
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+  }
+
+  .main-nav .site-links li a {
+    font-size: calc(2rem + 1vw);
+  }
+
+  /************* hero section *************/
+  .hero {
+    background-position: right;
+    justify-content: center;
+    align-items: flex-end;
+  }
+}

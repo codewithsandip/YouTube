@@ -150,3 +150,65 @@ main header {
 .main-nav .site-links li a:active::after {
   transform: scaleX(1);
 }
+
+/************* screen size below 640px *************/
+@media screen and (max-width: 640px) {
+  /************* mai nav hamburger menu *************/
+  header {
+    position: absolute;
+  }
+
+  .main-nav {
+    position: fixed;
+
+    height: 100%;
+    width: 100%;
+
+    right: -100rem;
+
+    background-color: var(--tertiary-color-m);
+    transition: right 0.3s ease-in-out;
+  }
+
+  .main-nav.collapse {
+    right: 0;
+  }
+
+  .main-nav .hamburger {
+    width: 3rem;
+    height: 3rem;
+    background-color: var(--primary-color);
+
+    position: fixed;
+    right: 1rem;
+    top: 1rem;
+    padding: 1rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    cursor: pointer;
+
+    /*border-radius: 50%;*/
+  }
+
+  .hamburger .line {
+    width: 100%;
+    height: 0.4rem;
+
+    background-color: white;
+    border-radius: 0.25rem;
+  }
+
+  .main-nav .site-links {
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+  }
+
+  .main-nav .site-links li a {
+    font-size: calc(2rem + 1vw);
+  }
+}
