@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Lato:wght@300;400;700&family=Oswald:wght@200;300;400;500;700&display=swap");
+
+:root {
+  --primary-color: #2c2e43;
+  --secondary-color: #b2b1b9;
+  --tertiary-color: #595260;
+}
+
+body {
+  font-family: "Lato", serif;
+  font-size: 62.5%;
+  height: 100vh;
+  max-width: 1040px;
+  margin: 0 auto;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.main {
+  flex-grow: 1;
+}
+
+header h1 {
+  font-size: 4rem;
+  color: var(--primary-color);
+}
+
+nav {
+  border-bottom: 2px solid var(--secondary-color);
+  padding-bottom: 0.5rem;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  display: flex;
+  font-size: 1.5rem;
+}
+
+nav ul li a {
+  text-decoration: none;
+  margin-right: 0.5rem;
+  color: var(--tertiary-color);
+}
+
+form {
+  margin-top: 5rem;
+}
+
+form input {
+  font-size: 2rem;
+  padding: 0.5rem;
+}
+
+form input[type="submit"] {
+  background-color: var(--secondary-color);
+  border-color: var(--secondary-color);
+  border-radius: 0.25rem;
+  cursor: pointer;
+}
+
+footer {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  font-size: 1rem;
+  color: var(--secondary-color);
+  border-top: 2px solid var(--secondary-color);
+}
+
+.weather-info {
+  margin-top: 3rem;
+}
+
+.weather-info .location {
+  font-size: 3rem;
+  margin-bottom: 0;
+}
+
+.weather-info .current {
+  font-size: 5rem;
+  margin-top: 0;
+}
+
+.weather-info .error {
+  color: red;
+  font-size: 2rem;
+}
+
+.text {
+  font-size: 3rem;
+  margin-top: 2rem;
+}
