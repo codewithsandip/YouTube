@@ -17,3 +17,7 @@
 - Java JDK
 - Tomcat
 - Intellij or eclipse
+
+## Spring XML configuration
+- IOC: the approach of outsourcing construction and management of objects.
+- 
