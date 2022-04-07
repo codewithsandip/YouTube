@@ -20,4 +20,10 @@
 
 ## Spring XML configuration
 - IOC: the approach of outsourcing construction and management of objects.
-- 
+- Spring container primary functions:
+  - Inversion of control: create and manage objects
+  - Dependency Injection: Inject object dependencies
+- Configure spring container:
+  - XML
+  - Java annotations
+  - Java source code
