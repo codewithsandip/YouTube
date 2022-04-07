@@ -3,7 +3,6 @@ Webpack is Module Bundler which takes a file as an input and produces a Single o
 Example: A page binder.
 
 ## Why Webpack?
----
 - Programs are collection of variables, functions and objects.
 - Variables, functions and objects are dependent on each other.
 - Traditionally we manage dependencies manually.
@@ -35,7 +34,6 @@ module.exports = {
 4. **asset/source**: Use to import text files and converts it into a JS string.
 
 ## Loading images
----
 - We can use asset/resource module.
 - Use module array in webpack config:
 ```
@@ -64,7 +62,7 @@ module.exports = {
         rules: [
             {
                 test: /\.(png|jpg)$/,
-                type: 'asset/resource'
+                **type: 'asset/resource'**
             }
         ]
     }
@@ -72,4 +70,25 @@ module.exports = {
 ```
 
 ## Loading assets inline as base 64 representation
----
+- Use to load small asset files.
+- If bigger files are used it will increase the js bundle size.
+```
+const path = require("path");
+
+module.exports = {
+    entry: "./src/index.js",
+    output: {
+        filename: "bundle.js",
+        path: path.resolve(__dirname, "./dist")
+    },
+    mode: "none",
+    module: {
+       rules: [
+           {
+               test: /\.(jpg|png)$/,
+               **type: 'asset/inline'**
+           }
+       ]
+    }
+}
+```
