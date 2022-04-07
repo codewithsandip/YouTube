@@ -27,3 +27,7 @@
   - XML
   - Java annotations
   - Java source code
+
+## Spring XML dependency injection
+- Constructor injection
+- Setter injection
