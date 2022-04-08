@@ -31,3 +31,5 @@
 ## Spring XML dependency injection
 - Constructor injection
 - Setter injection
+- Injecting literal values
+- Injecting values from properties files
