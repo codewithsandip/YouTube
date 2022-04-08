@@ -23,3 +23,14 @@
 ## Hyperlinks
 - a: href, target
 - internal, external
+
+## Semantic elements
+- nav: navigation
+- header
+- footer
+- article
+- section
+- aside
+- Semantic html helps google understand page for seo.
+- Semantic html is important for accessibility.
+- 
