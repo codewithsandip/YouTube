@@ -14,3 +14,10 @@
 - italic: em
 - ordered list: ol > li
 - un-ordered list: ul > li
+
+## Images
+- img: src, alt, width, height
+
+## Hyperlinks
+- a: href, target
+- internal, external
