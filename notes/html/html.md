@@ -12,6 +12,8 @@
 - comments: <!-- some comments -->
 - bold text: strong
 - italic: em
+
+## Lists
 - ordered list: ol > li
 - un-ordered list: ul > li
 
