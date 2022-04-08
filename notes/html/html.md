@@ -5,3 +5,12 @@
 - HTML
 - HEAD, title
 - BODY
+
+## Text elements
+- headings: h1, h2, h3, h4, h5, h6
+- paragraphs: p
+- comments: <!-- some comments -->
+- bold text: strong
+- italic: em
+- ordered list: ol > li
+- un-ordered list: ul > li
