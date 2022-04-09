@@ -33,3 +33,11 @@
 - Setter injection
 - Injecting literal values
 - Injecting values from properties files
+
+## Spring beans scope and lifecycle
+- Default scope: singleton
+- Other types: prototype, request, session, global session
+- Bean lifecycle 
+  - container started -> bean instantiated -> dependencies injected -> internal spring processing -> your custom init method -> container shutdown -> your custom destroy method
+  - init-method
+  - destroy-method
