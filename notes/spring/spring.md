@@ -41,3 +41,13 @@
   - container started -> bean instantiated -> dependencies injected -> internal spring processing -> your custom init method -> container shutdown -> your custom destroy method
   - init-method
   - destroy-method
+
+## Spring configuration java annotations
+- Annotations are special labels/markers added to java classes.
+- Annotations provides metadata about the class.
+- Annotations are processed at compile time or runtime.
+- Steps
+  - configure package in config file.
+  - use @Component annotation to make a java class as bean.
+  - retrieve the bean using same function like we did in xml.
+- If you dont specify bean name in @Component annotation deafault camel case name of class will be used.
