@@ -51,3 +51,7 @@
   - use @Component annotation to make a java class as bean.
   - retrieve the bean using same function like we did in xml.
 - If you dont specify bean name in @Component annotation deafault camel case name of class will be used.
+
+## Spring java annotations dependency injection
+- construction injection use @Autowired. Not needed from spring 4.
+- setter injection use @Autowired.
