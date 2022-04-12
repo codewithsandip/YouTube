@@ -53,5 +53,12 @@
 - If you dont specify bean name in @Component annotation deafault camel case name of class will be used.
 
 ## Spring java annotations dependency injection
-- construction injection use @Autowired. Not needed from spring 4.
-- setter injection use @Autowired.
+- Construction injection use @Autowired. Not needed from spring 4.
+- Setter injection use @Autowired.
+- Method injection: any method can be used to inject dependencies using @Autowired annotation.
+- Field injection: inject dependencies using @Autowired directly on field name.
+- If you have multiple bean implementations, to resolve dependency conflict use: @Qualifier
+
+## Spring java annotations scope and lifecycle
+- @Scope: singleton or prototype
+- @PostConstruct, @PreDestroy
