@@ -34,6 +34,14 @@
 - Injecting literal values
 - Injecting values from properties files
 
+## Spring config using java
+- Create a java class with @Configuration
+- Use @ComponentScan (optional)
+- Read java config file - AnnotationConfigApplicationContext
+- @Bean to create java beans
+- @PropertySource is used to load properties from file
+- @Value to inject property values
+
 ## Spring beans scope and lifecycle
 - Default scope: singleton
 - Other types: prototype, request, session, global session
