@@ -151,3 +151,87 @@ module.exports = {
     }
 }
 ```
+
+# Loading other files (css, sass & handlebar templates) using Webpack Loaders
+- Loader like css-loader and style-loader needs be installed using npm
+- Loaders are used in reverse order from the array
+- Loading css:
+```
+const path = require('path');
+
+module.exports = {
+    entry: './src/index.js',
+    output: {
+        filename: 'bundle.js',
+        path: path.resolve(__dirname, './dist'),
+        publicPath: 'dist/'
+    },
+    mode: 'none',
+    module: {
+        rules: [
+            {
+                test: /\.(png|jpg)$/,
+                type: 'asset',
+                parser: {
+                    dataUrlCondition: {
+                        maxSize: 900 * 1024
+                    }
+                }
+            },
+            {
+                test: /\.txt/,
+                type: 'asset/source'
+            },
+            {
+                test: /\.css$/,
+                use: [
+                    'style-loader', 'css-loader'
+                ]
+            }
+        ]
+    }
+};
+```
+- Loading sass:
+```
+const path = require('path');
+
+module.exports = {
+    entry: './src/index.js',
+    output: {
+        filename: 'bundle.js',
+        path: path.resolve(__dirname, './dist'),
+        publicPath: 'dist/'
+    },
+    mode: 'none',
+    module: {
+        rules: [
+            {
+                test: /\.(png|jpg)$/,
+                type: 'asset',
+                parser: {
+                    dataUrlCondition: {
+                        maxSize: 3 * 1024
+                    }
+                }
+            },
+            {
+                test: /\.txt/,
+                type: 'asset/source'
+            },
+            {
+                test: /\.css$/,
+                use: [
+                    'style-loader', 'css-loader'
+                ]
+            },
+            {
+                test: /\.scss$/,
+                use: [
+                    'style-loader', 'css-loader', 'sass-loader'
+                ]
+            }
+        ]
+    }
+};
+```
