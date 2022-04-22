@@ -153,8 +153,8 @@ module.exports = {
 ```
 
 # Loading other files (css, sass & handlebar templates) using Webpack Loaders
-- Loader like css-loader and style-loader needs be installed using npm
-- Loaders are used in reverse order from the array
+- Using webpack loaders we can use latest JS features not supported by the browsers 
+- Loaders help in import css and sass code
 - Loading css:
 ```
 const path = require('path');
