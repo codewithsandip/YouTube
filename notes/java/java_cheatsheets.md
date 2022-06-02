@@ -9,10 +9,13 @@
 - Classname must have camelcase naming.
 
 ## Variables
-- Java has 6 main datatypes:
-|  Datatype |  Value |
-|-----------|---------|
-|  int | whole numbers |
-|   |   |  
-|   |   |   
+- Java has 6 main datatypes
+- int: whole numbers (upto 2B)
+- long: large whole numbers (upto 9 quintillion)
+- double: decimal numbers
+- String: text
+- char: a single character
+- boolean: true or false value
+
+
   
