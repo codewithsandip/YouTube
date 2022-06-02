@@ -10,8 +10,9 @@
 
 ## Variables
 - Java has 6 main datatypes:
-| Datatype | Value |
-| ----------- | ----------- |
-| int | whole numbers (upto 2B) |
-| long | large whole numbers (upto 9B) |
+|  Datatype |  Value |
+|-----------|---------|
+|  int | whole numbers |
+|   |   |  
+|   |   |   
   
