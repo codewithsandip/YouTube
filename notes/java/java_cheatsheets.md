@@ -17,5 +17,14 @@
 - char: a single character
 - boolean: true or false value
 
-
+## Math Operators
+- +: addition
+- -: subtraction
+- *: multiplication
+- /: division
+- %: modulus, returns the remainder of division operation
+- ++: add one
+- --: subtract one
+- +=: add by value on rhs
+- -=: subtract by value on rhs
   
