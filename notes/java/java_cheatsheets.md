@@ -7,4 +7,11 @@
 - To compile Java code: javac file-name.java
 - To run Java code: java file-name
 - Classname must have camelcase naming.
+
+## Variables
+- Java has 6 main datatypes:
+| Datatype | Value |
+| ----------- | ----------- |
+| int | whole numbers (upto 2B) |
+| long | large whole numbers (upto 9B) |
   
