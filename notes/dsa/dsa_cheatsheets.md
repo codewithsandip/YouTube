@@ -27,20 +27,20 @@
 - Problem solving can be learned, don't feel bad if you got low IQ
 - Problems can be solved with existing patterns
 - PRACTICE! PRACTICE! PRACTICE! PRACTICE! PRACTICE!
-- Step 1: Understand The Problem
+- **Step 1: Understand The Problem**
 - Restate the problem statement in your own words
 - What are the inputs?
 - What are the output?
 - Error handling
 - Time vs space complexity
-- Step 2: Breaking The Problem Into Simple Steps
+- **Step 2: Breaking The Problem Into Simple Steps**
 - Write down the approach in plain english
 - Write down the brute force approach until you have the efficient solution
 - Discuss the solution with an interviewer
-- Step 3: Solve The Problem
+- **Step 3: Solve The Problem**
 - Write down the actual solution
 - Write down the simple solution first
-- Step 4: Re-iterate And Refactor
+- **Step 4: Re-iterate And Refactor**
 - Look back and see the scope of improvement in terms of performance, results, code refactoring etc.
 - Check for code quality, readability, best practices etc.
 
