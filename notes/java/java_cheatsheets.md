@@ -27,4 +27,15 @@
 - --: subtract one
 - +=: add by value on rhs
 - -=: subtract by value on rhs
+
+## Scanner
+- Scanner is used to collect values from users
+- We can ask questions to users and based on there answers we can collect those values of different data types
+- **nextLine** method is used to wait for a string input from user
+- **nextDouble** is used to wait for double value 
+- **nextInt** is used to wait for integer value
+- Exception is throws when user enters a wrong value type
+- Scanner has to be closed using **close** method else it will cause a memory leak
+- Use **\n** to add a new line
+
   
