@@ -33,3 +33,8 @@
 - syntax: element:seudo-name
 - example: li:first-child, li:last-child, li:nth-child(2)
 - hyperlink pseudo classes: a:link, a:visited, a:hover, a:active
+
+## Conflicting CSS
+- css conflicts can happen happen when multiple css rules are assigned to the same element
+- all props and rules gets applied except the conflicted one
+- priority highest to lowest: !important, inline styles, ID, class or psuedo class, element, universal
