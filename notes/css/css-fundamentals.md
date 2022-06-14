@@ -17,7 +17,7 @@
 
 ## Combination selectors
 - Comma separated list of elements
-- Descendent selector (SPACE): selects all chilren and grand children
+- Descendent selector (SPACE): selects all children and grand children
 
 ## Class and ID selectors
 - ID (#): only one per page
@@ -28,4 +28,8 @@
 - Hexadecimal: #red green blue
 - color property
 - background-color
-- 
+
+## Pseudo-classes
+- syntax: element:seudo-name
+- example: li:first-child, li:last-child, li:nth-child(2)
+- hyperlink pseudo classes: a:link, a:visited, a:hover, a:active
