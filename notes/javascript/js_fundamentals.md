@@ -26,3 +26,14 @@ JavaScript is high level, object oriented programming language which can run in 
 - declare a variable as const and change later to let if value needs to be changed
 - var is old way of declaring variables before ES6
 - avoid using var completely now
+
+## Math Operators
+- +: addition
+- -: subtraction
+- *: multiplication
+- /: division
+- %: modulus, returns the remainder of division operation
+- ++: add one
+- --: subtract one
+- +=: add by value on rhs
+- -=: subtract by value on rhs
