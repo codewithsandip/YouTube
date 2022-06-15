@@ -38,3 +38,6 @@ JavaScript is high level, object oriented programming language which can run in 
 - --: subtract one
 - +=: add by value on rhs
 - -=: subtract by value on rhs
+
+## Comparison Operators
+- TODO
