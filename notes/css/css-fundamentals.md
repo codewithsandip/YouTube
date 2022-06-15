@@ -43,6 +43,7 @@
 - child elements inherits the styles of the parent elements
 - not all of the props get inherited, mostly the text ones
 - you can use universal selector (*) to apply styles to all elements
+- universal selector can be used to apply css reset
 
 ## CSS Box Model
 - box model consists of: content, padding, border, margin
