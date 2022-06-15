@@ -31,6 +31,7 @@ JavaScript is high level, object oriented programming language which can run in 
 - +: addition
 - -: subtraction
 - *: multiplication
+- **: exponentiation
 - /: division
 - %: modulus, returns the remainder of division operation
 - ++: add one
