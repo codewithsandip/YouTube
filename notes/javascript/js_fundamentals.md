@@ -23,6 +23,6 @@ JavaScript is high level, object oriented programming language which can run in 
 - let variables value can be changed
 - const has to be initialized with a value
 - const value cannot be changed once intitialized
-- declare a variable as const and change later if value needs to be changed
+- declare a variable as const and change later to let if value needs to be changed
 - var is old way of declaring variables before ES6
 - avoid using var completely now
