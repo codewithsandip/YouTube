@@ -8,5 +8,14 @@ JavaScript is high level, object oriented programming language which can run in 
 
 ## Variables & datatypes
 - variables are like box created in memory to store different values
-- 
+- Datatypes:
+- Number: integer and decimal numbers
+- String: text and chars
+- Boolean: true or false
+- Undefined: kinda empty value or no value
+- Null: kinda empty value used for objects
+- Symbol (ES2015): value that is unique and cannot be changed
+- BigInt (ES2020): big number values that a Number datatype cannot hold
+- javascript has dynamic type means type will change based on value
+- typeof is used to check the type of the value
 
