@@ -36,5 +36,16 @@
 
 ## Conflicting CSS
 - css conflicts can happen happen when multiple css rules are assigned to the same element
-- all props and rules gets applied except the conflicted one
+- all props and rules get applied except the conflicted one
 - priority highest to lowest: !important, inline styles, ID, class or psuedo class, element, universal
+
+## Inheritance
+- child elements inherits the styles of the parent elements
+- not all of the props get inherited, mostly the text ones
+- you can use universal selector (*) to apply styles to all elements
+
+## CSS Box Model
+- box model consists of: content, padding, border, margin
+- padding is space inside the border
+- margin is space outside the border
+- element width consists of: left border, left padding, content width, right padding, right border
