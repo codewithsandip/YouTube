@@ -19,3 +19,10 @@ JavaScript is high level, object oriented programming language which can run in 
 - javascript has dynamic type means type will change based on value
 - typeof is used to check the type of the value
 
+## let, const, var
+- let variables value can be changed
+- const has to be initialized with a value
+- const value cannot be changed once intitialized
+- declare a variable as const and change later if value needs to be changed
+- var is old way of declaring variables before ES6
+- avoid using var completely now
