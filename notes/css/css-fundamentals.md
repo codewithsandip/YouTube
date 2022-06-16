@@ -50,3 +50,18 @@
 - padding is space inside the border
 - margin is space outside the border
 - element width consists of: left border, left padding, content width, right padding, right border
+
+## Box Model Types
+- **Block:**
+- occupy 100% of parent width
+- stacked vertically
+- **Inline:**
+- occupy only the space necessary for its content
+- no line breaks
+- height and width do not apply
+- padding and margins only works on lhs and rhs
+
+## Imps
+- dont set the height for the element unless required as it will not expand vertically as we add new elements
+- 
+
