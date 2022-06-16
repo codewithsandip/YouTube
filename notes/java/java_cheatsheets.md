@@ -45,9 +45,9 @@
 - We can use to form expressions which will be evaluated to a value of true or false
 
 ## Comparison Operators
-- > : greater than
+- ">" : greater than
 - < : less than
-- >= : greater than or equal to
+- ">=" : greater than or equal to
 - <= : less than or equal to
 - == : equal to
 - != : not equal to
