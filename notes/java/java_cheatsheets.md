@@ -38,4 +38,20 @@
 - Scanner has to be closed using **close** method else it will cause a memory leak
 - Use **\n** to add a new line
 
-  
+## Booleans
+- Boolean is a datatype like int, long, double, char, strings we have used previously
+- Booleans can store true or false value
+- Booleans help us in comparison & making decisions based on those comparisons
+- We can use to form expressions which will be evaluated to a value of true or false
+
+## Comparison Operators
+- > : greater than
+- < : less than
+- >= : greater than or equal to
+- <= : less than or equal to
+- == : equal to
+- != : not equal to
+- equals : equal to for strings
+- !equals : not equal to for strings
+
+
