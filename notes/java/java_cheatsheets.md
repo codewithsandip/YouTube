@@ -44,7 +44,7 @@
 - Booleans help us in comparison & making decisions based on those comparisons
 - We can use to form expressions which will be evaluated to a value of true or false
 
-## Comparison Operators
+## Comparisons
 - ">" : greater than
 - < : less than
 - ">=" : greater than or equal to
