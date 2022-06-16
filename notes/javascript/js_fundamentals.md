@@ -46,3 +46,9 @@ JavaScript is high level, object oriented programming language which can run in 
 - <= : less than or equal to
 - == : equal to
 - != : not equal to
+
+## Operator Precedence
+
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_Precedence#table
+
+
