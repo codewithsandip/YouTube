@@ -61,6 +61,12 @@
 - height and width do not apply
 - padding and margins only works on lhs and rhs
 
+## Psuedo Elements
+- psuedo elements can be targeted using ::
+- h1::first-letter
+- p::first-line
+- a::before, a::after
+
 ## Imps
 - dont set the height for the element unless required as it will not expand vertically as we add new elements
 - 
