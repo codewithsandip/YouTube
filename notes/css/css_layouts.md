@@ -20,4 +20,4 @@
 }
 ```
 
->> Use box sizing of content-box
+> Use box sizing of content-box instead of border-box
