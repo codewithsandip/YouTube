@@ -51,4 +51,8 @@ JavaScript is high level, object oriented programming language which can run in 
 
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_Precedence#table
 
+## Falsy values
 
+- 0, '', null, undefined, NaN
+- ==: type coersion
+- ===: no type coersion
