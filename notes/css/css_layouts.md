@@ -20,4 +20,4 @@
 }
 ```
 
-> Use box sizing of border-box instead of content-box to have exact size
+> Use box sizing of border-box instead of content-box to have exact size as universal selector
