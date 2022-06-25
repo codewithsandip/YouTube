@@ -54,6 +54,15 @@
 - equals : equal to for strings
 - !equals : not equal to for strings
 
+## Functions
+- Function are like mini-tasks helps in organizing your code 
+- Level of access: private or public
+- functions can take argument
+- functions can return value
+- function name should be written in camelcases
+- parameters: value recieved by the function
+- arguments: value passed into the function
+
 ## Interview Questions
 - Difference between for and a while loop, which one to use when?
 - 
