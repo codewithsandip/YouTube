@@ -63,6 +63,12 @@
 - parameters: value recieved by the function
 - arguments: value passed into the function
 
+## Loops
+- for loops: when you know how many times a code is going to run
+- while: when its unknown how many times code is going to run
+- break: breaks the loop
+- continue: continue the loop
+
 ## Interview Questions
 - Difference between for and a while loop, which one to use when?
 - 
