@@ -54,4 +54,6 @@
 - equals : equal to for strings
 - !equals : not equal to for strings
 
-
+## Interview Questions
+- Difference between for and a while loop, which one to use when?
+- 
