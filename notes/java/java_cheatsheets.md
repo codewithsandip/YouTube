@@ -71,4 +71,5 @@
 
 ## Interview Questions
 - Difference between for and a while loop, which one to use when?
-- 
+- how to create a copy constructor which will take same class object as an argument and returns a new object
+-  
