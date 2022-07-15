@@ -69,6 +69,20 @@
 - break: breaks the loop
 - continue: continue the loop
 
+## Objects
+- Class: blueprint from which you can create objects
+- Object: an object is a thing that you can see or describe
+- Field: class variable that describes an object
+- Action: method or function that represents what the object can do
+- Constructor: runs when you create a new object
+- Copy Constructor: creates copy of an object
+- Setter: method or function that updates the value of a private field
+- toString: method that returns a String representation of every field in an object
+- public: provides public access to a field or method from anywhere
+- Constructors and methods tend to be public
+- private: prevents direct access of a field or method outside of its class
+- To protect the state of an object, fields tend to be private
+
 ## Interview Questions
 - Difference between for and a while loop, which one to use when?
 - how to create a copy constructor which will take same class object as an argument and returns a new object
