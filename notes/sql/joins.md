@@ -25,3 +25,47 @@ select payment_id, customer.customer_id, first_name from payment
 inner join customer
 on payment.customer_id = customer.customer_id;
 ```
+
+## FULL OUTER JOIN
+
+https://medium.com/@josemarcialportilla/review-of-sql-joins-ac5463dc71c9#.ayjcuatvj
+
+
+> check if there is no descripancy between payments of customers
+
+Returns everything from payment and customer table
+```
+select * from payment
+full outer join customer
+on payment.customer_id = customer.customer_id;
+```
+
+Check every payment should have customer and every customer who did payment should have payment id
+```
+select * from payment
+full outer join customer
+on payment.customer_id = customer.customer_id
+where payment.customer_id is null
+or customer.customer_id is null;
+```
+
+## LEFT OUTER JOIN
+
+```
+/* return everything in film table and same in film and inventory table */
+
+select film.film_id, title, inventory_id, store_id 
+from film
+left join inventory
+on film.film_id = inventory.film_id;
+```
+
+```
+/* return film not in inventory table */
+
+select film.film_id, title, inventory_id, store_id 
+from film
+left join inventory
+on film.film_id = inventory.film_id
+where inventory.film_id is null;
+```
