@@ -93,3 +93,14 @@ WHERE
     manager_id IS NOT NULL
 GROUP BY manager_id;
 ```
+### AS
+```
+select sum(amount) as num_transactions from payment;
+
+select customer_id, sum(amount) as total_spent from payment
+group by customer_id;
+
+select customer_id, sum(amount) as total_spent from payment
+group by customer_id 
+having sum(amount) > 100;
+```
