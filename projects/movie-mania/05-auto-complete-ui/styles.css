@@ -1,0 +1,15 @@
+.root {
+    font-size: 62.5%;
+}
+
+.movie {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.dropdown-content {
+    height: 20rem;
+    overflow-y: scroll;
+}

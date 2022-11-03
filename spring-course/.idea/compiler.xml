@@ -6,10 +6,20 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="bean-annotation" />
+        <module name="bean-register-programatically" />
+        <module name="bean-xml-config" />
         <module name="maven-demo" />
+        <module name="component-annotation" />
+        <module name="bean-lifecycle-annotations" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="bean-annotation" target="11" />
+      <module name="bean-lifecycle-annotations" target="11" />
+      <module name="bean-register-programatically" target="11" />
+      <module name="bean-xml-config" target="11" />
+      <module name="component-annotation" target="11" />
       <module name="maven-demo" target="1.5" />
     </bytecodeTargetLevel>
   </component>

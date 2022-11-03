@@ -3,11 +3,16 @@
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
-        <option value="$PROJECT_DIR$/03-maven-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/maven-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/bean-annotation/pom.xml" />
+        <option value="$PROJECT_DIR$/component-annotation/pom.xml" />
+        <option value="$PROJECT_DIR$/bean-lifecycle-annotations/pom.xml" />
+        <option value="$PROJECT_DIR$/bean-register-programatically/pom.xml" />
+        <option value="$PROJECT_DIR$/bean-xml-config/pom.xml" />
       </list>
     </option>
   </component>
-  <component name="ProjectRootManager">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="17" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
 </project>

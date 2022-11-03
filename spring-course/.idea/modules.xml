@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/03-maven-demo/maven-demo.iml" filepath="$PROJECT_DIR$/03-maven-demo/maven-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bean-annotation/bean-annotation.iml" filepath="$PROJECT_DIR$/bean-annotation/bean-annotation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bean-lifecycle-annotations/bean-lifecycle-annotations.iml" filepath="$PROJECT_DIR$/bean-lifecycle-annotations/bean-lifecycle-annotations.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bean-register-programatically/bean-register-programatically.iml" filepath="$PROJECT_DIR$/bean-register-programatically/bean-register-programatically.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bean-xml-config/bean-xml-config.iml" filepath="$PROJECT_DIR$/bean-xml-config/bean-xml-config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/component-annotation/component-annotation.iml" filepath="$PROJECT_DIR$/component-annotation/component-annotation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/maven-demo/maven-demo.iml" filepath="$PROJECT_DIR$/maven-demo/maven-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-course.iml" filepath="$PROJECT_DIR$/spring-course.iml" />
     </modules>
   </component>
 </project>
