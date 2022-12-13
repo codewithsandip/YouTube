@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link rel="stylesheet" href="css/courses.css">
+    <title>Code School | Conference</title>
+</head>
+<body>
+    <div th:replace="header :: header"></div>
+    <section class="hero is-primary">
+        <div class="hero-body">
+            <p class="title">
+                CodeSchool
+            </p>
+            <p class="subtitle">
+                One stop shop for all your coding needs
+            </p>
+        </div>
+    </section>
+
+    <section class="container mt-4">
+        <h2 class="subtitle courses-title">
+            Please register for some of our great upcoming conferences:
+        </h2>
+        <div class="columns">
+            <div class="column">
+                <h6 class="subtitle is-6">Weekends</h6>
+                <div class="box" th:each="conference : ${WEEKEND}">
+                    <article class="media">
+                        <div class="media-left">
+                            <span class="tag is-info is-large" th:text="${conference.day}"></span>
+                        </div>
+                        <div class="media-content">
+                            <div class="content">
+                                <p>
+                                    <strong th:text="${conference.title}"></strong>
+                                    <br>
+                                    <small th:text="${conference.author}"></small>
+                                </p>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+            <div class="column">
+                <h6 class="subtitle is-6">Weekdays</h6>
+                <div class="box" th:each="conference : ${WEEKDAY}">
+                    <article class="media">
+                        <div class="media-left">
+                            <span class="tag is-info is-large" th:text="${conference.day}"></span>
+                        </div>
+                        <div class="media-content">
+                            <div class="content">
+                                <p>
+                                    <strong th:text="${conference.title}"></strong>
+                                    <br>
+                                    <small th:text="${conference.author}"></small>
+                                </p>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div th:replace="footer :: footer"></div>
+</body>
+</html>

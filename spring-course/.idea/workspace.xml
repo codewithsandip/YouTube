@@ -5,14 +5,82 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="28b3f590-b7a9-43d6-9288-0c2e9d8ceae3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/maven-demo/maven-demo.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-course.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-component-annotation/src/com/cws/config/AppConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07-autowiring-introduction/07-autowiring-introduction.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08-autowiring-method/08-autowiring-method.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09-autowiring-field/09-autowiring-field.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-autowiring-setter/10-autowiring-setter.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11-autowiring-constructor/11-autowiring-constructor.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12-autowiring-gotchas/12-autowiring-gotchas.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13-bean-scope-singleton/13-bean-scope-singleton.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15-bean-scope-prototype/15-bean-scope-prototype.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_3_23.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_3_23.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_3_23.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_3_23.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_3_23.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_3_23.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-maven-demo/maven-demo.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-maven-demo/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bean-annotation/bean-annotation.iml" beforeDir="false" afterPath="$PROJECT_DIR$/02-bean-annotation/02-bean-annotation.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bean-annotation/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/02-bean-annotation/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bean-annotation/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/02-bean-annotation/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bean-annotation/src/com/cws/beans/Jio.java" beforeDir="false" afterPath="$PROJECT_DIR$/02-bean-annotation/src/com/cws/beans/Jio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bean-annotation/src/com/cws/beans/Vodafone.java" beforeDir="false" afterPath="$PROJECT_DIR$/03-component-annotation/src/com/cws/beans/Vodafone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bean-annotation/src/com/cws/config/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/02-bean-annotation/src/com/cws/config/AppConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bean-annotation/target/bean-annotation-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/02-bean-annotation/target/bean-annotation-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bean-annotation/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/02-bean-annotation/target/classes/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bean-annotation/target/classes/com/cws/beans/Jio.class" beforeDir="false" afterPath="$PROJECT_DIR$/02-bean-annotation/target/classes/com/cws/beans/Jio.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bean-annotation/target/classes/com/cws/beans/Vodafone.class" beforeDir="false" afterPath="$PROJECT_DIR$/02-bean-annotation/target/classes/com/cws/beans/Vodafone.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bean-annotation/target/classes/com/cws/config/AppConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/02-bean-annotation/target/classes/com/cws/config/AppConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bean-annotation/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/02-bean-annotation/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bean-lifecycle-annotations/bean-lifecycle-annotations.iml" beforeDir="false" afterPath="$PROJECT_DIR$/04-bean-lifecycle-annotations/04-bean-lifecycle-annotations.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bean-lifecycle-annotations/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/04-bean-lifecycle-annotations/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bean-lifecycle-annotations/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/04-bean-lifecycle-annotations/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bean-lifecycle-annotations/src/com/cws/beans/Airtel.java" beforeDir="false" afterPath="$PROJECT_DIR$/04-bean-lifecycle-annotations/src/com/cws/beans/Airtel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bean-lifecycle-annotations/src/com/cws/beans/Jio.java" beforeDir="false" afterPath="$PROJECT_DIR$/03-component-annotation/src/com/cws/beans/Jio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bean-lifecycle-annotations/src/com/cws/beans/Vodafone.java" beforeDir="false" afterPath="$PROJECT_DIR$/04-bean-lifecycle-annotations/src/com/cws/beans/Vodafone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bean-lifecycle-annotations/src/com/cws/config/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/04-bean-lifecycle-annotations/src/com/cws/config/AppConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bean-lifecycle-annotations/target/bean-lifecycle-annotations-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/04-bean-lifecycle-annotations/target/bean-lifecycle-annotations-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bean-lifecycle-annotations/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/04-bean-lifecycle-annotations/target/classes/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bean-lifecycle-annotations/target/classes/com/cws/beans/Airtel.class" beforeDir="false" afterPath="$PROJECT_DIR$/04-bean-lifecycle-annotations/target/classes/com/cws/beans/Airtel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bean-lifecycle-annotations/target/classes/com/cws/beans/Jio.class" beforeDir="false" afterPath="$PROJECT_DIR$/04-bean-lifecycle-annotations/target/classes/com/cws/beans/Jio.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bean-lifecycle-annotations/target/classes/com/cws/beans/Vodafone.class" beforeDir="false" afterPath="$PROJECT_DIR$/04-bean-lifecycle-annotations/target/classes/com/cws/beans/Vodafone.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bean-lifecycle-annotations/target/classes/com/cws/config/AppConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/04-bean-lifecycle-annotations/target/classes/com/cws/config/AppConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bean-lifecycle-annotations/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/04-bean-lifecycle-annotations/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bean-register-programatically/bean-register-programatically.iml" beforeDir="false" afterPath="$PROJECT_DIR$/03-component-annotation/03-component-annotation.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bean-register-programatically/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/05-bean-register-programatically/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bean-register-programatically/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/05-bean-register-programatically/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bean-register-programatically/src/com/cws/beans/Jio.java" beforeDir="false" afterPath="$PROJECT_DIR$/05-bean-register-programatically/src/com/cws/beans/Jio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bean-register-programatically/src/com/cws/beans/Vodafone.java" beforeDir="false" afterPath="$PROJECT_DIR$/05-bean-register-programatically/src/com/cws/beans/Vodafone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bean-register-programatically/src/com/cws/config/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/05-bean-register-programatically/src/com/cws/config/AppConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bean-register-programatically/target/bean-register-programmatically-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/05-bean-register-programatically/target/bean-register-programmatically-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bean-register-programatically/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/05-bean-register-programatically/target/classes/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bean-register-programatically/target/classes/com/cws/beans/Jio.class" beforeDir="false" afterPath="$PROJECT_DIR$/05-bean-register-programatically/target/classes/com/cws/beans/Jio.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bean-register-programatically/target/classes/com/cws/beans/Vodafone.class" beforeDir="false" afterPath="$PROJECT_DIR$/05-bean-register-programatically/target/classes/com/cws/beans/Vodafone.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bean-register-programatically/target/classes/com/cws/config/AppConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/05-bean-register-programatically/target/classes/com/cws/config/AppConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bean-register-programatically/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/05-bean-register-programatically/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bean-xml-config/bean-xml-config.iml" beforeDir="false" afterPath="$PROJECT_DIR$/05-bean-register-programatically/05-bean-register-programatically.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bean-xml-config/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/06-bean-xml-config/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bean-xml-config/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/06-bean-xml-config/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bean-xml-config/src/beans.xml" beforeDir="false" afterPath="$PROJECT_DIR$/06-bean-xml-config/target/classes/beans.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bean-xml-config/src/com/cws/beans/Jio.java" beforeDir="false" afterPath="$PROJECT_DIR$/06-bean-xml-config/src/com/cws/beans/Jio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bean-xml-config/target/bean-xml-config-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/06-bean-xml-config/target/bean-xml-config-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bean-xml-config/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/06-bean-xml-config/target/classes/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bean-xml-config/target/classes/beans.xml" beforeDir="false" afterPath="$PROJECT_DIR$/06-bean-xml-config/src/beans.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bean-xml-config/target/classes/com/cws/beans/Jio.class" beforeDir="false" afterPath="$PROJECT_DIR$/06-bean-xml-config/target/classes/com/cws/beans/Jio.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bean-xml-config/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/06-bean-xml-config/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/component-annotation/component-annotation.iml" beforeDir="false" afterPath="$PROJECT_DIR$/06-bean-xml-config/06-bean-xml-config.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/component-annotation/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/03-component-annotation/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/component-annotation/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/03-component-annotation/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/component-annotation/src/com/cws/beans/Jio.java" beforeDir="false" afterPath="$PROJECT_DIR$/04-bean-lifecycle-annotations/src/com/cws/beans/Jio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/component-annotation/src/com/cws/beans/Vodafone.java" beforeDir="false" afterPath="$PROJECT_DIR$/02-bean-annotation/src/com/cws/beans/Vodafone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/component-annotation/src/com/cws/config/AppConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maven-demo/maven-demo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/01-maven-demo/01-maven-demo.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/maven-demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/01-maven-demo/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,68 +121,38 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "/Users/sandipgautam/Sandip Gautam/Channels/CodeWithSandip/Github/codewithsandip/spring-course/bean-xml-config/src",
-    "project.structure.last.edited": "Modules",
+    "last_opened_file_path": "/Users/sandipgautam/Sandip Gautam/Channels/CodeWithSandip/Github/codewithsandip/spring-course/bean-eager-lazy-14",
+    "project.structure.last.edited": "SDKs",
     "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
+    "project.structure.side.proportion": "0.28653628",
     "settings.editor.selected.configurable": "editor.preferences.fonts.default"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/bean-xml-config/src" />
-      <recent name="$PROJECT_DIR$/bean-xml-config" />
-      <recent name="$PROJECT_DIR$/bean-register-programatically" />
-      <recent name="$PROJECT_DIR$/bean-register-programatically/src" />
-      <recent name="$PROJECT_DIR$/bean-lifecycle-annotations" />
+      <recent name="$PROJECT_DIR$/bean-eager-lazy-14" />
+      <recent name="$PROJECT_DIR$/bean-scope-prototype" />
+      <recent name="$PROJECT_DIR$/bean-eager-lazy" />
+      <recent name="$PROJECT_DIR$/bean-scope" />
+      <recent name="$PROJECT_DIR$/circular-dependencies" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/maven-demo/src" />
       <recent name="$PROJECT_DIR$/maven-demo" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main (4)">
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="component-annotation" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="bean-lifecycle-annotations" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="bean-register-programatically" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="bean-xml-config" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="17" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="bean-annotation" />
+      <module name="bean-eager-lazy-14" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main (4)" />
-        <item itemvalue="Application.Main (3)" />
-        <item itemvalue="Application.Main (2)" />
-        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>

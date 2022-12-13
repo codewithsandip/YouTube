@@ -6,21 +6,28 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="bean-annotation" />
-        <module name="bean-register-programatically" />
-        <module name="bean-xml-config" />
-        <module name="maven-demo" />
-        <module name="component-annotation" />
-        <module name="bean-lifecycle-annotations" />
+        <module name="bean-eager-lazy-14" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="bean-annotation" target="11" />
-      <module name="bean-lifecycle-annotations" target="11" />
-      <module name="bean-register-programatically" target="11" />
-      <module name="bean-xml-config" target="11" />
-      <module name="component-annotation" target="11" />
-      <module name="maven-demo" target="1.5" />
+      <module name="01-maven-demo" target="1.5" />
+      <module name="02-bean-annotation" target="11" />
+      <module name="03-component-annotation" target="11" />
+      <module name="04-bean-lifecycle-annotations" target="11" />
+      <module name="05-bean-register-programatically" target="11" />
+      <module name="06-bean-xml-config" target="11" />
+      <module name="07-autowiring-introduction" target="11" />
+      <module name="08-autowiring-method" target="11" />
+      <module name="09-autowiring-field" target="11" />
+      <module name="10-autowiring-setter" target="11" />
+      <module name="11-autowiring-constructor" target="11" />
+      <module name="12-autowiring-gotchas" target="11" />
+      <module name="13-bean-scope-singleton" target="11" />
+      <module name="14-bean-eager-lazy" target="11" />
+      <module name="15-bean-scope-prototype" target="11" />
+      <module name="autowiring-introduction1" target="11" />
+      <module name="bean-eager-lazy-14" target="11" />
+      <module name="circular-dependencies" target="11" />
     </bytecodeTargetLevel>
   </component>
 </project>

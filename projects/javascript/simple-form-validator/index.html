@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="favicon.png?v=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Simple form validator</title>
+</head>
+<body>
+    <div class="container">
+        <form class="form">
+            <h2>Sign Up</h2>
+            <div class="form-field">
+                <label for="username">Username</label>
+                <input id="username" name="Username" type="text" 
+                    class="username" placeholder="Enter username">
+                <small>Error</small>
+            </div>
+            <div class="form-field">
+                <label for="email">Email</label>
+                <input id="email" name="Email" type="text" 
+                    class="email" placeholder="Enter email">
+                <small>Error</small>
+            </div>
+            <div class="form-field">
+                <label for="password1">Password</label>
+                <input id="password1" name="Password1" type="text" 
+                    class="password1" placeholder="Enter password">
+                <small>Error</small>
+            </div>
+            <div class="form-field">
+                <label for="password2">Confirm password</label>
+                <input id="password2" name="Password2" type="text" 
+                    class="password2" placeholder="Enter password again">
+                <small>Error</small>
+            </div>
+            <button>Submit</button>
+        </form>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

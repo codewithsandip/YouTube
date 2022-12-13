@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/simple-web-app-01/pom.xml" />
+        <option value="$PROJECT_DIR$/simple-web-app-02/pom.xml" />
+        <option value="$PROJECT_DIR$/codeschool-01/pom.xml" />
+        <option value="$PROJECT_DIR$/codeschool-02/pom.xml" />
+        <option value="$PROJECT_DIR$/codeschool-03/pom.xml" />
+        <option value="$PROJECT_DIR$/codeschool-04/pom.xml" />
+        <option value="$PROJECT_DIR$/codeschool-05/pom.xml" />
+        <option value="$PROJECT_DIR$/codeschool-06/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

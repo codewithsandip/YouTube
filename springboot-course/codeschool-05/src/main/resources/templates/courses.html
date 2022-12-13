@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link rel="stylesheet" href="css/courses.css">
+    <title>Code School | Courses</title>
+</head>
+<body>
+    <div th:replace="header :: header"></div>
+    <section class="hero is-primary">
+        <div class="hero-body">
+            <p class="title">
+                CodeSchool
+            </p>
+            <p class="subtitle">
+                One stop shop for all your coding needs
+            </p>
+        </div>
+    </section>
+
+    <section class="container mt-4">
+        <h2 class="subtitle courses-title">
+            Industry standard courses from the industry experts
+        </h2>
+        <div class="columns">
+            <div class="column">
+                <div class="card">
+                    <div class="card-image">
+                        <figure class="image is-4by3">
+                            <img src="images/javascript.png" alt="JavaScript Masterclass">
+                        </figure>
+                    </div>
+                    <div class="card-content">
+                        <div class="media">
+                            <div class="media-left">
+                                <figure class="image is-48x48">
+                                    <img src="images/author-1.jpg" alt="John">
+                                </figure>
+                            </div>
+                            <div class="media-content">
+                                <p class="title is-4">John</p>
+                                <p class="subtitle is-6">@john</p>
+                            </div>
+                        </div>
+
+                        <div class="content">
+                            <h4 class="subtitle is-4">JavaScript Masterclass</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="column">
+                <div class="card">
+                    <div class="card-image">
+                        <figure class="image is-4by3">
+                            <img src="images/reactjs.png" alt="React Masterclass">
+                        </figure>
+                    </div>
+                    <div class="card-content">
+                        <div class="media">
+                            <div class="media-left">
+                                <figure class="image is-48x48">
+                                    <img src="images/author-2.jpg" alt="Sonia">
+                                </figure>
+                            </div>
+                            <div class="media-content">
+                                <p class="title is-4">Sonia</p>
+                                <p class="subtitle is-6">@sonia</p>
+                            </div>
+                        </div>
+
+                        <div class="content">
+                            <h4 class="subtitle is-4">React Masterclass</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="column">
+                <div class="card">
+                    <div class="card-image">
+                        <figure class="image is-4by3">
+                            <img src="images/spring.png" alt="Spring Masterclass">
+                        </figure>
+                    </div>
+                    <div class="card-content">
+                        <div class="media">
+                            <div class="media-left">
+                                <figure class="image is-48x48">
+                                    <img src="images/author-3.jpg" alt="Linda">
+                                </figure>
+                            </div>
+                            <div class="media-content">
+                                <p class="title is-4">Linda</p>
+                                <p class="subtitle is-6">@linda</p>
+                            </div>
+                        </div>
+
+                        <div class="content">
+                            <h4 class="subtitle is-4">Spring Masterclass</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div th:replace="footer :: footer"></div>
+</body>
+</html>

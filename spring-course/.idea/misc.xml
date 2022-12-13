@@ -9,6 +9,16 @@
         <option value="$PROJECT_DIR$/bean-lifecycle-annotations/pom.xml" />
         <option value="$PROJECT_DIR$/bean-register-programatically/pom.xml" />
         <option value="$PROJECT_DIR$/bean-xml-config/pom.xml" />
+        <option value="$PROJECT_DIR$/autowiring-method/pom.xml" />
+        <option value="$PROJECT_DIR$/autowiring-field/pom.xml" />
+        <option value="$PROJECT_DIR$/autowiring-setter/pom.xml" />
+        <option value="$PROJECT_DIR$/autowiring-constructor/pom.xml" />
+        <option value="$PROJECT_DIR$/autowiring-gotchas/pom.xml" />
+        <option value="$PROJECT_DIR$/autowiring-introduction/pom.xml" />
+        <option value="$PROJECT_DIR$/bean-scope/pom.xml" />
+        <option value="$PROJECT_DIR$/bean-eager-lazy/pom.xml" />
+        <option value="$PROJECT_DIR$/bean-scope-prototype/pom.xml" />
+        <option value="$PROJECT_DIR$/bean-eager-lazy-14/pom.xml" />
       </list>
     </option>
   </component>

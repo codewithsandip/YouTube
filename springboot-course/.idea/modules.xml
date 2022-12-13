@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/codeschool-01/codeschool-01.iml" filepath="$PROJECT_DIR$/codeschool-01/codeschool-01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/codeschool-02/codeschool-02.iml" filepath="$PROJECT_DIR$/codeschool-02/codeschool-02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/codeschool-03/codeschool-03.iml" filepath="$PROJECT_DIR$/codeschool-03/codeschool-03.iml" />
+      <module fileurl="file://$PROJECT_DIR$/codeschool-04/codeschool-04.iml" filepath="$PROJECT_DIR$/codeschool-04/codeschool-04.iml" />
+      <module fileurl="file://$PROJECT_DIR$/codeschool-05/codeschool-05.iml" filepath="$PROJECT_DIR$/codeschool-05/codeschool-05.iml" />
+      <module fileurl="file://$PROJECT_DIR$/codeschool-06/codeschool-06.iml" filepath="$PROJECT_DIR$/codeschool-06/codeschool-06.iml" />
+      <module fileurl="file://$PROJECT_DIR$/simple-web-app-01/simple-web-app.iml" filepath="$PROJECT_DIR$/simple-web-app-01/simple-web-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/simple-web-app-02/simple-web-app (1).iml" filepath="$PROJECT_DIR$/simple-web-app-02/simple-web-app (1).iml" />
+    </modules>
+  </component>
+</project>
