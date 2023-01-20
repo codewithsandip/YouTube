@@ -13,10 +13,16 @@ end
 ## Vagant commands
  
 ```
-vagrant up
-vagrant ssh
-exit
-vagrant halt
-vagrant destroy
-vagrant init jacobw/fedora35-arm64
+vagrant up: create or bring the VM up
+vagrant halt: shutdown the vm
+vagrant ssh: entry into the vm
+exit: getting out of vm
+vagrant destroy: delete the vm but not Vagrant file
+Example command: vagrant init jacobw/fedora35-arm64
+```
+
+## VM issues
+
+```
+https://github.com/hashicorp/vagrant/issues/12666
 ```
