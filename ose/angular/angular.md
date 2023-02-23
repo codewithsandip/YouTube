@@ -49,6 +49,16 @@
 
 <img width="819" alt="image" src="https://user-images.githubusercontent.com/70803038/220714273-953aa42b-6b05-47a1-be4c-dd13bfa508ae.png">
 
+## Modules
+
+<img width="975" alt="image" src="https://user-images.githubusercontent.com/70803038/220825968-ae98fecd-104f-4bc5-b6ec-103438711bae.png">
+
+<img width="823" alt="image" src="https://user-images.githubusercontent.com/70803038/220826228-dc543e67-6ee2-4ae1-a23b-2298caafe8c0.png">
+
+<img width="961" alt="image" src="https://user-images.githubusercontent.com/70803038/220826252-1f8f91bd-9b73-4e5e-8a36-ac77d1e97ac4.png">
+
+<img width="917" alt="image" src="https://user-images.githubusercontent.com/70803038/220827843-f3b95659-e1e0-483b-8254-cdf05bdfd245.png">
+
 
 
 
