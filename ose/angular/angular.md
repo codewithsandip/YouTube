@@ -60,6 +60,14 @@
 <img width="917" alt="image" src="https://user-images.githubusercontent.com/70803038/220827843-f3b95659-e1e0-483b-8254-cdf05bdfd245.png">
 
 
+## Routing
+
+<img width="910" alt="image" src="https://user-images.githubusercontent.com/70803038/220832108-a90cb615-36f1-4280-b1df-e992ea81caa5.png">
+
+### Lazy vs Eager Loading
+
+<img width="1039" alt="image" src="https://user-images.githubusercontent.com/70803038/220857336-e970d29d-35b2-409f-8c8f-7afac2460636.png">
+
 
 
 
