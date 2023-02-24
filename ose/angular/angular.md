@@ -80,5 +80,23 @@
 
 <img width="756" alt="image" src="https://user-images.githubusercontent.com/70803038/220974544-6eed8dc7-d9ec-4a6f-bbb6-844ed1fc2bb1.png">
 
+## RxJS
+
+<img width="434" alt="image" src="https://user-images.githubusercontent.com/70803038/220988070-3bb0da32-a8ea-44d2-a998-df8fe048a7a8.png">
+
+<img width="975" alt="image" src="https://user-images.githubusercontent.com/70803038/220988204-107120b2-f249-43d7-a446-704657bc0c38.png">
+
+<img width="853" alt="image" src="https://user-images.githubusercontent.com/70803038/220990158-1f09c4ab-1db7-43d8-acb0-b5afe01a5d3d.png">
+
+## Forms
+
+<img width="726" alt="image" src="https://user-images.githubusercontent.com/70803038/221095084-7f632e43-e7c4-4439-a7ca-31e7ce8ccc12.png">
+
+<img width="989" alt="image" src="https://user-images.githubusercontent.com/70803038/221095415-4fac6568-702e-4cce-965e-02c0897e326c.png">
+
+<img width="580" alt="image" src="https://user-images.githubusercontent.com/70803038/221098181-59b0f307-6f49-4394-9ae6-7ba1575bde2c.png">
+
+<img width="700" alt="image" src="https://user-images.githubusercontent.com/70803038/221106067-37e6264d-eb90-41c0-8049-d3ddc00da96a.png">
+
 
 
