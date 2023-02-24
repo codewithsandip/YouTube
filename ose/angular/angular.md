@@ -98,5 +98,17 @@
 
 <img width="700" alt="image" src="https://user-images.githubusercontent.com/70803038/221106067-37e6264d-eb90-41c0-8049-d3ddc00da96a.png">
 
+## Authentication
+
+<img width="1038" alt="image" src="https://user-images.githubusercontent.com/70803038/221127570-fbfa13aa-e8de-4c22-9c69-699b18c8c9b9.png">
+
+<img width="908" alt="image" src="https://user-images.githubusercontent.com/70803038/221161311-1fdf6c3a-dd14-4971-8dc9-7cb0a53d0117.png">
+
+<img width="844" alt="image" src="https://user-images.githubusercontent.com/70803038/221165342-a656a307-cd40-489f-9e44-64156523e788.png">
+
+<img width="476" alt="image" src="https://user-images.githubusercontent.com/70803038/221170364-17e9b7e6-ba2f-4c85-b913-67d4d260a447.png">
+
+<img width="992" alt="image" src="https://user-images.githubusercontent.com/70803038/221180188-2815711c-066e-410f-97e8-b10c2d2dae43.png">
+
 
 
