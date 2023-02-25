@@ -70,3 +70,38 @@
 <img width="603" alt="image" src="https://user-images.githubusercontent.com/70803038/221348223-9e924efe-1a88-452c-9f18-e7cd2e04c43f.png">
 
 
+## Building Custom Images using Docker Server
+
+<img width="683" alt="image" src="https://user-images.githubusercontent.com/70803038/221350314-6483094c-76ef-41ee-9d23-21cca6f2c534.png">
+
+<img width="378" alt="image" src="https://user-images.githubusercontent.com/70803038/221350317-67eccefb-f89f-4751-9c04-a95fd0c28b90.png">
+
+<img width="443" alt="image" src="https://user-images.githubusercontent.com/70803038/221350528-cbf95456-da80-41f0-9d4b-bfa9a97529cc.png">
+
+<img width="565" alt="image" src="https://user-images.githubusercontent.com/70803038/221350609-a544f3d9-6a8a-47cc-b8f9-6d13f097b04e.png">
+
+<img width="636" alt="image" src="https://user-images.githubusercontent.com/70803038/221350542-a8d5b194-b8e1-415b-83ba-8fa5e0f8373b.png">
+
+<img width="441" alt="image" src="https://user-images.githubusercontent.com/70803038/221350552-5f715f03-9fd5-4b35-822b-70fe9bce43a3.png">
+
+<img width="641" alt="image" src="https://user-images.githubusercontent.com/70803038/221350588-1e6c96ba-7dd6-491e-b399-a17a1015edd6.png">
+
+<img width="951" alt="image" src="https://user-images.githubusercontent.com/70803038/221346992-d35632cf-efcc-45d8-a48a-3bbe805aef52.png">
+
+<img width="443" alt="image" src="https://user-images.githubusercontent.com/70803038/221350696-373cceaa-214e-4dff-888f-bfc7011fae48.png">
+
+<img width="839" alt="image" src="https://user-images.githubusercontent.com/70803038/221350991-8ff4411a-a9d6-4c54-8ace-044754082fc8.png">
+
+<img width="441" alt="image" src="https://user-images.githubusercontent.com/70803038/221350552-5f715f03-9fd5-4b35-822b-70fe9bce43a3.png">
+
+<img width="430" alt="image" src="https://user-images.githubusercontent.com/70803038/221351075-0457bc9b-a113-43d0-90b5-a489dc67c868.png">
+
+<img width="441" alt="image" src="https://user-images.githubusercontent.com/70803038/221350552-5f715f03-9fd5-4b35-822b-70fe9bce43a3.png">
+
+<img width="837" alt="image" src="https://user-images.githubusercontent.com/70803038/221351268-c227a66e-62cd-4d90-9a3d-69bb88ee9869.png">
+
+<img width="770" alt="image" src="https://user-images.githubusercontent.com/70803038/221351320-9c3cdb99-6cf7-4d5e-bc8b-c04445b2280b.png">
+
+
+
+<img width="441" alt="image" src="https://user-images.githubusercontent.com/70803038/221350552-5f715f03-9fd5-4b35-822b-70fe9bce43a3.png">
