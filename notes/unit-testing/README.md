@@ -1,6 +1,6 @@
 ## Testing methodology
 
-* Unit Testing
+* Unit Testing or isolated unit test
 * Integration Testing - shallow and deep
 * End to end testing - selenium or browser testing
 
