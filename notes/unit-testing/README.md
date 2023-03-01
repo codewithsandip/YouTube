@@ -69,4 +69,20 @@
 <img width="834" alt="image" src="https://user-images.githubusercontent.com/70803038/222114961-22aff92c-b3b0-49ca-a1d3-9c6c5f3789d5.png">
 
 
+## Async testing
+
+<img width="517" alt="image" src="https://user-images.githubusercontent.com/70803038/222117044-2573fc4c-6e78-42bd-90d3-3742178edab8.png">
+
+<img width="743" alt="image" src="https://user-images.githubusercontent.com/70803038/222117590-1aebc4cc-e506-4a50-8380-8ab48bdc2f02.png">
+
+## Code coverage
+
+* Coverage report is generated using the tool Intanbul
+* Coverage report only show the folders where test file is written, so it can give false results
+
+<img width="452" alt="image" src="https://user-images.githubusercontent.com/70803038/222118353-6bb31ccb-9003-4e3d-a39e-dd5720592c09.png">
+
+<img width="1340" alt="image" src="https://user-images.githubusercontent.com/70803038/222118502-58960ab2-7cb0-4410-92e8-e6742c8e28dd.png">
+
+
 
