@@ -60,4 +60,13 @@
 
 <img width="447" alt="image" src="https://user-images.githubusercontent.com/70803038/222100825-462ac195-71c3-41b7-be79-eb37c156c52d.png">
 
-<img width="577" alt="image" src="https://user-images.githubusercontent.com/70803038/222093004-52ff9dbd-2389-4de0-817f-147de1d69213.png">
+## Testing DOM Interactions and Routing Components
+
+<img width="862" alt="image" src="https://user-images.githubusercontent.com/70803038/222111952-1f4ac1b8-ba6b-402e-8ef6-3f6d626be149.png">
+
+<img width="748" alt="image" src="https://user-images.githubusercontent.com/70803038/222113563-ff6792d2-f8b7-4ea6-b6ab-b618b576c82c.png">
+
+<img width="834" alt="image" src="https://user-images.githubusercontent.com/70803038/222114961-22aff92c-b3b0-49ca-a1d3-9c6c5f3789d5.png">
+
+
+
