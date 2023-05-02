@@ -1,0 +1,35 @@
+.edit-note {
+    padding: 10px 20px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.15);
+}
+
+.edit-note form div {
+    display: flex;
+    flex-direction: column;
+}
+
+.edit-note form div input {
+    height: 30px;
+    font-size: 20px;
+    font-family: Roboto, Arial;
+    font-weight: 300;
+}
+
+.edit-note div.text {
+    margin-top: 20px;
+}
+
+.edit-note form div textarea {
+    height: 100px;
+    font-size: 20px;
+    font-family: Roboto, Arial;
+    font-weight: 300;
+}
+
+.edit-note button {
+    margin-top: 20px;
+    padding: 5px 10px;
+    width: 100px;
+    font-size: 15px;
+    cursor: pointer;
+}
