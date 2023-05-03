@@ -1,0 +1,42 @@
+.add-note {
+    padding: 10px 0px;
+}
+
+.add-note h2 {
+    margin-bottom: 20px;
+}
+
+.add-note form div {
+    display: flex;
+    flex-direction: column;
+}
+
+.add-note form div label {
+    color: rgb(81, 81, 81);
+}
+
+.add-note form div input {
+    height: 30px;
+    font-size: 20px;
+    font-family: Roboto, Arial;
+    font-weight: 300;
+}
+
+.add-note div.text {
+    margin-top: 20px;
+}
+
+.add-note form div textarea {
+    height: 100px;
+    font-size: 20px;
+    font-family: Roboto, Arial;
+    font-weight: 300;
+}
+
+.add-note button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    width: 200px;
+    font-size: 20px;
+    cursor: pointer;
+}

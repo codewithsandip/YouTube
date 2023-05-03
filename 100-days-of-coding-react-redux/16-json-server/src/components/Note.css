@@ -1,0 +1,48 @@
+.note {
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    width: 200px;
+    height: 300px;
+    padding: 20px 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.15);
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.note-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    border-bottom: 1px solid rgba(87, 87, 87, 0.5);
+    padding-bottom: 5px;
+}
+
+.note-header h2 {
+    font-size: 18px;
+    flex: 1;
+}
+
+.note-body {
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.edit-button,
+.delete-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    transition: opacity 0.15s;
+}
+
+.edit-button:hover,
+.delete-button:hover {
+    opacity: 0.5;
+}
+
+.edit-button img,
+.delete-button img {
+    width: 30px;
+    height: 30px;
+}
