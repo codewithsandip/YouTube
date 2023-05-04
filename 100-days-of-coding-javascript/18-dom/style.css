@@ -1,0 +1,102 @@
+:root {
+    --clr-tomato: tomato;
+    --clr-lightpink: lightpink;
+    --clr-gray: gray;
+    --clr-white: white;
+
+    --section-v-gap: 30px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(145deg, var(--clr-tomato), var(--clr-lightpink));
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.panel {
+    display: flex;
+    flex-direction: column;
+    max-width: 450px;
+    background-color: var(--clr-white);
+
+    padding: 20px 40px;
+    border-radius: 9px;
+}
+
+.panel h1 {
+    font-size: 25px;
+    margin-bottom: var(--section-v-gap);
+}
+
+.password-input {
+    width: 100%;
+    padding: 10px 20px;
+    font-size: 20px;
+    border: 2px solid var(--clr-gray);
+    border-radius: 5px;
+    margin-bottom: var(--section-v-gap);
+}
+
+.form-field {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: var(--section-v-gap);
+}
+
+.form-field label {
+    font-size: 18px;
+}
+
+.length-input {
+    width: 120px;
+    padding: 5px 10px;
+    font-size: 15px;
+    border: 2px solid var(--clr-gray);
+    border-radius: 5px;
+}
+
+.form-field input[type="checkbox"] {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.form-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.form-buttons button {
+    flex: 1;
+    padding: 10px 20px;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    color: var(--clr-white);
+    cursor: pointer;
+    transition: opacity 0.15s;
+}
+
+.form-buttons button:hover {
+    opacity: 0.8;
+}
+
+.generate-button {
+    background-color: var(--clr-tomato);
+}
+
+.copy-button {
+    background-color: var(--clr-lightpink);
+}
