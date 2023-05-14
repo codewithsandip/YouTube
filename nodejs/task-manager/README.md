@@ -1,7 +1,8 @@
 # Task Manager Node App
 
 * [Initial setup](#initial-setup)
-* [Express Server](#expres-server)
+* [Express Server](#express-server)
+* [Routes](#routes)
 
 ## initial setup
 
@@ -50,6 +51,45 @@ const port = 3005;
 app.get('/', (req, res) => {
     res.send('task manager');
 });
+
+app.listen(port, () => {
+    console.log(`server started at port ${port}`);
+});
+```
+
+## routes
+
+routes/tasks.js
+
+```js
+const express = require('express');
+const router = express.Router();
+
+router.route('/').get((req, res) => {
+    res.send('all tasks');
+});
+
+module.exports = router;
+```
+
+app.js
+
+```diff
+const express = require('express');
+const app = express();
+++const tasks = require('./routes/tasks');
+
+// middlewares
+++app.use(express.json());
+
+const port = 3005;
+
+// routes
+app.get('/', (req, res) => {
+    res.send('task manager');
+});
+
+++app.use('/api/v1/tasks', tasks);
 
 app.listen(port, () => {
     console.log(`server started at port ${port}`);
