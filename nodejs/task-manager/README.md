@@ -292,10 +292,9 @@ db/connect.js
 ```diff
 const mongoose = require('mongoose');
 
-+
 const connectDb = (url) => {
     return mongoose
-    .connect(url, {
++    .connect(url, {
         useNewUrlParser: true,
         useCreateIndex: true,
         useFindAndModify: false,
@@ -329,7 +328,7 @@ app.use('/api/v1/tasks', tasks);
 
 const start = async () => {
     try {
-        + await connectDb(process.env.MONGO_URI);
++        await connectDb(process.env.MONGO_URI);
         app.listen(port, () => {
             console.log(`server started at port ${port}`);
         });
