@@ -182,7 +182,7 @@ db/connect.js
 ```js
 const mongoose = require('mongoose');
 
-const connectionString = 'mongodb+srv://sandip:mayain18@nodeexpressprojects.zd2hdti.mongodb.net/TASK-MANAGER?retryWrites=true&w=majority';
+const connectionString = 'mongodb+srv://sandip:1234@nodeexpressprojects.zd2hdti.mongodb.net/TASK-MANAGER?retryWrites=true&w=majority';
 
 mongoose
     .connect(connectionString, {
