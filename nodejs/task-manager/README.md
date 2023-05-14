@@ -1,7 +1,7 @@
 # Task Manager Node App
 
-* [Initial setup][initial-setup]
-* [Express Server][expres-server]
+* [Initial setup](#initial-setup)
+* [Express Server](#expres-server)
 
 ## initial setup
 
