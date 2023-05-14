@@ -99,7 +99,7 @@ app.listen(port, () => {
 
 # controllers
 
-/controllers/tasks.js
+controllers/tasks.js
 
 ```js
 const getAllTasks = (req, res) => {
