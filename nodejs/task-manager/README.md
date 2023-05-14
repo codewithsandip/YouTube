@@ -3,6 +3,7 @@
 * [Initial setup](#initial-setup)
 * [Express Server](#express-server)
 * [Routes](#routes)
+* [Controllers](#controllers)
 
 ## initial setup
 
@@ -94,4 +95,30 @@ app.get('/', (req, res) => {
 app.listen(port, () => {
     console.log(`server started at port ${port}`);
 });
+```
+
+# controllers
+
+/controllers/tasks.js
+
+```js
+const getAllTasks = (req, res) => {
+    res.send('all items');
+};
+
+module.exports = {
+    getAllTasks
+};
+```
+
+routes/tasks.js
+
+```diff
+const express = require('express');
+const router = express.Router();
++ const { getAllTasks } = require('../controllers/tasks');
+
++ router.route('/').get(getAllTasks);
+
+module.exports = router;
 ```
