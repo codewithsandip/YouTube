@@ -6,6 +6,7 @@
 * [Controllers](#controllers)
 * [More Controllers & routes](#more-controllers-and-routes)
 * [Setup urls in postman](#setup-urls-in-postman)
+* [Mongodb](#mongodb)
 
 ## initial setup
 
@@ -174,4 +175,47 @@ module.exports = router;
 
 # setup urls in postman
 
+# mongodb
 
+db/connect.js
+
+```js
+const mongoose = require('mongoose');
+
+const connectionString = 'mongodb+srv://sandip:mayain18@nodeexpressprojects.zd2hdti.mongodb.net/TASK-MANAGER?retryWrites=true&w=majority';
+
+mongoose
+    .connect(connectionString, {
+        useNewUrlParser: true,
+        useCreateIndex: true,
+        useFindAndModify: false,
+        useUnifiedTopology: true,
+    })
+    .then(() => console.log('connected to db'))
+    .catch((err) => console.log('error connecting to db: ', err));
+```
+
+app.js
+
+```diff
++ require('./db/connect');
+const express = require('express');
+const app = express();
+const tasks = require('./routes/tasks');
+
+// middlewares
+app.use(express.json());
+
+const port = 3005;
+
+// routes
+app.get('/', (req, res) => {
+    res.send('task manager');
+});
+
+app.use('/api/v1/tasks', tasks);
+
+app.listen(port, () => {
+    console.log(`server started at port ${port}`);
+});
+```
