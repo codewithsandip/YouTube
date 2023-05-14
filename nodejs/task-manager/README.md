@@ -77,10 +77,10 @@ app.js
 ```diff
 const express = require('express');
 const app = express();
-++const tasks = require('./routes/tasks');
++ const tasks = require('./routes/tasks');
 
 // middlewares
-++app.use(express.json());
++ app.use(express.json());
 
 const port = 3005;
 
@@ -89,7 +89,7 @@ app.get('/', (req, res) => {
     res.send('task manager');
 });
 
-++app.use('/api/v1/tasks', tasks);
++ app.use('/api/v1/tasks', tasks);
 
 app.listen(port, () => {
     console.log(`server started at port ${port}`);
