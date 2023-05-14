@@ -4,6 +4,8 @@
 * [Express Server](#express-server)
 * [Routes](#routes)
 * [Controllers](#controllers)
+* [More Controllers & routes](#more-controllers-and-routes)
+* [Setup urls in postman](#setup-urls-in-postman)
 
 ## initial setup
 
@@ -122,3 +124,54 @@ const router = express.Router();
 
 module.exports = router;
 ```
+
+# more controllers and routes
+
+controllers/tasks.js
+
+```js
+const getAllTasks = (req, res) => {
+    res.send('all tasks');
+};
+
+const createTask = (req, res) => {
+    res.send('create task');
+};
+
+const getTask = (req, res) => {
+    res.send('get one task');
+};
+
+const updateTask = (req, res) => {
+    res.send('update task');
+};
+
+const deleteTask = (req, res) => {
+    res.send('delete task');
+};
+
+module.exports = {
+    getAllTasks,
+    createTask,
+    getTask,
+    updateTask,
+    deleteTask
+};
+```
+
+routes/tasks.js
+
+```js
+const express = require('express');
+const router = express.Router();
+const { getAllTasks, createTask, getTask, updateTask, deleteTask } = require('../controllers/tasks');
+
+router.route('/').get(getAllTasks).post(createTask);
+router.route('/:id').get(getTask).patch(updateTask).delete(deleteTask);
+
+module.exports = router;
+```
+
+# setup urls in postman
+
+
