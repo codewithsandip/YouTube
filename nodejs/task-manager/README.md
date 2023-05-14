@@ -8,6 +8,7 @@
 * [Setup urls in postman](#setup-urls-in-postman)
 * [Mongodb](#mongodb)
 * [Server enhancements](#server-enhancements)
+* [Environment variables](#environment-variables)
 
 ## initial setup
 
@@ -267,6 +268,68 @@ app.use('/api/v1/tasks', tasks);
 const start = async () => {
     try {
         await connectDb();
+        app.listen(port, () => {
+            console.log(`server started at port ${port}`);
+        });
+    } catch (error) {
+        console.log(error);
+    }
+};
+
+start();
+```
+
+# Environment variables
+
+.env
+
+```
+MONGO_URI=mongodb+srv://sandip:1234@nodeexpressprojects.zd2hdti.mongodb.net/TASK-MANAGER?retryWrites=true&w=majority
+```
+
+db/connect.js
+
+```diff
+const mongoose = require('mongoose');
+
++
+const connectDb = (url) => {
+    return mongoose
+    .connect(url, {
+        useNewUrlParser: true,
+        useCreateIndex: true,
+        useFindAndModify: false,
+        useUnifiedTopology: true,
+    });    
+};
+
+module.exports = connectDb;
+```
+
+app.js
+
+```diff
+const express = require('express');
+const app = express();
+const tasks = require('./routes/tasks');
+const connectDb = require('./db/connect');
++ require('dotenv').config();
+
+// middlewares
+app.use(express.json());
+
+const port = 3005;
+
+// routes
+app.get('/', (req, res) => {
+    res.send('task manager');
+});
+
+app.use('/api/v1/tasks', tasks);
+
+const start = async () => {
+    try {
+        + await connectDb(process.env.MONGO_URI);
         app.listen(port, () => {
             console.log(`server started at port ${port}`);
         });
