@@ -1,5 +1,8 @@
 # Task Manager Node App
 
+* [Initial setup][initial-setup]
+* [Express Server][expres-server]
+
 ## initial setup
 
 app.js
@@ -12,7 +15,7 @@ package.json
 
 ```json
 {
-  "name": "jobs",
+  "name": "task-manager",
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
@@ -31,4 +34,24 @@ package.json
     "nodemon": "^2.0.7"
   }
 }
+```
+
+## express server
+
+app.js
+
+```js
+const express = require('express');
+const app = express();
+
+const port = 3005;
+
+// routes
+app.get('/', (req, res) => {
+    res.send('task manager');
+});
+
+app.listen(port, () => {
+    console.log(`server started at port ${port}`);
+});
 ```
