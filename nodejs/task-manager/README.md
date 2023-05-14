@@ -2,13 +2,13 @@
 
 ## initial setup
 
-app.js
+`app.js`
 
 ```js
 console.log('task manager');
 ```
 
-package.json
+`package.json`
 
 ```json
 {
