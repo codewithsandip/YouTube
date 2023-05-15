@@ -1,7 +1,7 @@
 # Contact Manager
 
-* Models(#models)
-* Repository(#repository)
+* [Models](#models)
+* [Repository](#repository)
 
 ## models
 
