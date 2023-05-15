@@ -4,6 +4,7 @@
 * [Repository](#repository)
 * [Service](#service)
 * [Controllers](#controllers)
+* [Exception handling](#exception-handling)
 
 ## models
 
@@ -222,3 +223,137 @@ public class ContactController {
     
 }
 ```
+
+# exception handling
+
+exception/ContactNotFoundException.java
+
+```java
+package com.example.contacts.exception;
+
+public class ContactNotFoundException extends RuntimeException { 
+    public ContactNotFoundException(String id) { //constructor gets called when exception is thrown
+        super("The id '" + id + "' does not exist in our records"); //passing an error message into the parent constructor allows us to access it later...
+    }
+}
+```
+
+exception/ErrorResponse.java
+
+```java
+package com.example.contacts.exception;
+
+import java.time.LocalDateTime;
+
+import com.fasterxml.jackson.annotation.JsonFormat;
+
+public class ErrorResponse {
+    private String message;
+    
+    @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "dd-MM-yyyy hh:mm:ss")
+    private LocalDateTime timestamp;
+
+    public ErrorResponse(String message) {
+        this.message = message;
+        this.timestamp = LocalDateTime.now();
+    }
+
+    public String getMessage() {
+        return this.message;
+    }
+
+    public void setMessage(String message) {
+        this.message = message;
+    }
+
+    public LocalDateTime getTimestamp() {
+        return this.timestamp;
+    }
+
+    public void setTimestamp(LocalDateTime timestamp) {
+        this.timestamp = timestamp;
+    }
+
+}
+```
+
+service/ContactServiceImpl.java
+
+```diff
+package com.example.contacts.service;
+
+import java.util.List;
+import java.util.stream.IntStream;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.example.contacts.exception.ContactNotFoundException;
+import com.example.contacts.exception.NoContactException;
+import com.example.contacts.model.Contact;
+import com.example.contacts.repository.ContactRepository;
+
+@Service
+public class ContactServiceImpl implements ContactService {
+
+    @Autowired
+    private ContactRepository contactRepository;
+
+    @Override
+    public List<Contact> getContacts() {
+        return contactRepository.getContacts();
+    }
+
+    @Override
+    public Contact getContactById(String id) {
+        return contactRepository.getContact(findIndexById(id));
+    }
+
+    @Override
+    public void saveContact(Contact contact) {
+        contactRepository.saveContact(contact);
+    }
+
+    @Override
+    public void updateContact(String id, Contact contact) {
+        contactRepository.updateContact(findIndexById(id), contact);
+    }
+
+    @Override
+    public void deleteContact(String id) {
+        contactRepository.deleteContact(findIndexById(id));
+    }
+
+    private int findIndexById(String id) {
+        return IntStream.range(0, contactRepository.getContacts().size())
+            .filter(index -> contactRepository.getContacts().get(index).getId().equals(id))
+            .findFirst()
++             .orElseThrow(() -> new ContactNotFoundException(id));
+    }
+    
+}
+```
+
+ApplicationExceptionHandler.java
+
+```java
+package com.example.contacts;
+
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.ControllerAdvice;
+import org.springframework.web.bind.annotation.ExceptionHandler;
+
+import com.example.contacts.exception.ContactNotFoundException;
+import com.example.contacts.exception.ErrorResponse;
+
+@ControllerAdvice
+public class ApplicationExceptionHandler {
+    @ExceptionHandler(ContactNotFoundException.class)
+    public ResponseEntity<ErrorResponse> handleContactNotFoundException(ContactNotFoundException ex) {
+        ErrorResponse errorResponse = new ErrorResponse(ex.getMessage());
+        return new ResponseEntity<>(errorResponse, HttpStatus.NOT_FOUND);
+    }
+}
+```
+
