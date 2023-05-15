@@ -265,17 +265,16 @@ app.get('/', (req, res) => {
 
 app.use('/api/v1/tasks', tasks);
 
-+ 
-const start = async () => {
-    try {
-        await connectDb();
-        app.listen(port, () => {
-            console.log(`server started at port ${port}`);
-        });
-    } catch (error) {
-        console.log(error);
-    }
-};
++ const start = async () => {
++    try {
++        await connectDb();
++        app.listen(port, () => {
++            console.log(`server started at port ${port}`);
++        });
++    } catch (error) {
++        console.log(error);
++    }
++ };
 
 start();
 ```
@@ -364,11 +363,10 @@ const getAllTasks = async (req, res) => {
     res.send('all tasks');
 };
 
-+ 
-const createTask = async (req, res) => {
-    const task = await Task.create(req.body);
-    res.status(201).json({ task });
-};
++ const createTask = async (req, res) => {
++    const task = await Task.create(req.body);
++    res.status(201).json({ task });
++ };
 
 const getTask = (req, res) => {
     res.send('get one task');
