@@ -209,7 +209,7 @@ public class ContactController {
     }
 
     @PutMapping(value="/contact/{id}")
-    public ResponseEntity<Contact> updateContact(@PathVariable String id, Contact contact) {
+    public ResponseEntity<Contact> updateContact(@PathVariable String id, @RequestBody Contact contact) {
         contactService.updateContact(id, contact);
         return new ResponseEntity<Contact>(contactService.getContactById(id), HttpStatus.OK);
     }
