@@ -3,6 +3,7 @@
 * [Models](#models)
 * [Repository](#repository)
 * [Service](#service)
+* [Controllers](#controllers)
 
 ## models
 
@@ -154,6 +155,69 @@ public class ContactServiceImpl implements ContactService {
             .filter(index -> contactRepository.getContacts().get(index).getId().equals(id))
             .findFirst()
             .orElseThrow();
+    }
+    
+}
+```
+
+## controllers
+
+web/ContactController.java
+
+```java
+package com.example.contacts.web;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.example.contacts.model.Contact;
+import com.example.contacts.service.ContactService;
+
+import org.springframework.web.bind.annotation.DeleteMapping;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.PutMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+
+
+@RestController
+public class ContactController {
+    @Autowired
+    private ContactService contactService;
+
+    @GetMapping(value="/contact/all")
+    public ResponseEntity<List<Contact>> getContacts() {
+        List<Contact> contacts = contactService.getContacts();
+        return new ResponseEntity<>(contacts, HttpStatus.OK);
+    }
+
+    @GetMapping(value="/contact/{id}")
+    public ResponseEntity<Contact> getContact(@PathVariable String id) {
+        Contact contact = contactService.getContactById(id);
+        return new ResponseEntity<>(contact, HttpStatus.OK);
+    }
+
+    @PostMapping(value="/contact")
+    public ResponseEntity<HttpStatus> createContact(@RequestBody Contact contact) {
+        contactService.saveContact(contact);
+        return new ResponseEntity<>(HttpStatus.CREATED);
+    }
+
+    @PutMapping(value="/contact/{id}")
+    public ResponseEntity<Contact> updateContact(@PathVariable String id, Contact contact) {
+        contactService.updateContact(id, contact);
+        return new ResponseEntity<Contact>(contactService.getContactById(id), HttpStatus.OK);
+    }
+
+    @DeleteMapping(value="/contact/{id}")
+    public ResponseEntity<HttpStatus> deleteContact(@PathVariable String id) {
+        contactService.deleteContact(id);
+        return new ResponseEntity<>(HttpStatus.NO_CONTENT);
     }
     
 }
