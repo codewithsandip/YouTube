@@ -9,6 +9,7 @@
 * [Mongodb](#mongodb)
 * [Server enhancements](#server-enhancements)
 * [Environment variables](#environment-variables)
+* [Models](#models)
 
 ## initial setup
 
@@ -279,7 +280,7 @@ const start = async () => {
 start();
 ```
 
-# Environment variables
+# environment variables
 
 .env
 
@@ -338,4 +339,54 @@ const start = async () => {
 };
 
 start();
+```
+
+# models
+
+models/Task.js
+
+```js
+const mongoose = require('mongoose');
+
+const TaskSchema = new mongoose.Schema({
+    name: String, completed: Boolean
+});
+
+module.exports = mongoose.model('Task', TaskSchema);
+```
+
+controllers/tasks.js
+
+```diff
++ const Task = require('../models/Task');
+
+const getAllTasks = async (req, res) => {
+    res.send('all tasks');
+};
+
++ 
+const createTask = async (req, res) => {
+    const task = await Task.create(req.body);
+    res.status(201).json({ task });
+};
+
+const getTask = (req, res) => {
+    res.send('get one task');
+};
+
+const updateTask = (req, res) => {
+    res.send('update task');
+};
+
+const deleteTask = (req, res) => {
+    res.send('delete task');
+};
+
+module.exports = {
+    getAllTasks,
+    createTask,
+    getTask,
+    updateTask,
+    deleteTask
+};
 ```
