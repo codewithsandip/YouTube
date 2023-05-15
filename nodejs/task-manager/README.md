@@ -10,6 +10,7 @@
 * [Server enhancements](#server-enhancements)
 * [Environment variables](#environment-variables)
 * [Models](#models)
+* [Validations](#validations)
 
 ## initial setup
 
@@ -367,6 +368,65 @@ const getAllTasks = async (req, res) => {
 +    const task = await Task.create(req.body);
 +    res.status(201).json({ task });
 + };
+
+const getTask = (req, res) => {
+    res.send('get one task');
+};
+
+const updateTask = (req, res) => {
+    res.send('update task');
+};
+
+const deleteTask = (req, res) => {
+    res.send('delete task');
+};
+
+module.exports = {
+    getAllTasks,
+    createTask,
+    getTask,
+    updateTask,
+    deleteTask
+};
+```
+
+# validations
+
+models/Task.js
+
+```js
+const mongoose = require('mongoose');
+
+const TaskSchema = new mongoose.Schema({
+    name: {
+        type: String,
+        required: [true, 'must provide name'],
+        trim: true,
+        maxlength: [20, 'name cannot be more than 20 chars']
+    },
+    completed: Boolean
+});
+
+module.exports = mongoose.model('Task', TaskSchema);
+```
+
+controllers/tasks.js
+
+```diff
+const Task = require('../models/Task');
+
+const getAllTasks = async (req, res) => {
+    res.send('all tasks');
+};
+
+const createTask = async (req, res) => {
++     try {
++        const task = await Task.create(req.body);
++        res.status(201).json({ task });
++    } catch (error) {
++        res.status(500).json({ msg: error });
++    }
+};
 
 const getTask = (req, res) => {
     res.send('get one task');
